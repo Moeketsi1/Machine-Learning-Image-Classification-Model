@@ -15,10 +15,10 @@ from keras.models import load_model
 
 # Set the image size and data directory path
 IMAGE_SIZE = 224
-data_dir = "D:/IndividualAssignment4215198/Image_Classification/data"
+data_dir = ""
 
 # Class categories (update as per your dataset)
-categories = ["motionsensor", "raspberrypi", "cosensor", "dht11"]
+categories = [""]
 
 # Function to load images and labels
 def load_data(data_dir):
